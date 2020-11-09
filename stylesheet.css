@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(image/background.png);
+}
+
+@font-face 
+{ 
+    font-family: mistervampire;
+    src: url('MISTV___.TTF');
+}
+p
+{
+    font-family: mistervampire;
+}
+li
+{
+    font-family: mistervampire;
+}
+
+main
+{
+    padding: 1vw 8vw;
+}
+
+.contents img
+{
+    margin-left: 30vw;
+    width: 20vw;
+    border-radius: 50%;
+}
+
+.content-item
+{
+    padding-top : 2vw;
+    padding-left: 4vw;
+    font-size: 2vw;
+}
+
+@media (max-width: 768px) {
+    .myImg {
+     width: 100%;
+    } 
+   }
+
+.tittle
+{
+    padding-top: 3vw;
+    font-size: 3vw;
+    text-align: right;
+    padding-bottom: 3vw;
+    position: relative;
+}
+   
+.typing-title{
+    width : 100%;
+    white-space : nowrap;
+    overflow : hidden;
+    color : black;
+    animation: typing-title 10s steps(60, end);
+    animation-iteration-count: infinite;
+   }
+   @keyframes typing-title
+   {
+    from {width: 0; }
+}
+
+.Education p
+{
+    padding: 2vw 4vw;
+    padding-bottom: 2vw;
+    font-size: 2vw;
+}
+
+.Education li
+{
+    margin: 0.5vw 7vw;
+    font-size: 2vw;
+}
